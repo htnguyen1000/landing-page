@@ -1,0 +1,120 @@
+* { 
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Roboto',sans-serif;
+}
+
+/* header style */
+header{
+    padding: 1em 13em;
+    background-color: #1F2937; 
+}
+
+.navigation-bar {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between
+}
+
+#logo{
+    font-size: 24px;
+    font-weight: 900;
+    color:#f9faf8
+}
+
+.header-body{
+    padding: 7em 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+}
+
+.header-body .left-text{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.header-body .image-placeholder{
+    flex-shrink: 0;
+    width: 50%;
+}
+
+.image-placeholder{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero {
+    color: #f9faf8;
+    font-weight: 900;
+    font-size: 48px;
+}
+
+button {
+    padding: 6px 24px;
+    border-radius: 8px;
+    margin-top:8px;
+    width: 120px;
+}
+
+button.sign-up{
+    background: #3882f6;
+    color: white;
+    border: 1px solid #3882f6;
+}
+
+h2 {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: bolder;
+}
+
+.navigation-bar ul {
+    list-style-type: none;
+    display: flex;
+    gap: 1.5em
+}
+
+.sub-text-header,
+a {
+    color: #e5e7eb;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+
+/* second section cards */
+
+.info-header{
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1em;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5.5em;
+    padding: 5.5em;
+    flex-wrap: wrap;
+}
+
+.sub-text{
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2em;
+}
+
